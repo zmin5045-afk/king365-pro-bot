@@ -23,7 +23,7 @@ keyboard = InlineKeyboardMarkup([
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_photo(
-        photo="https://agp97.com/logo.png",
+        photo="https://raw.githubusercontent.com/zmin5045-afk/king365-pro-bot/main/photo_2026-07-03_16-45-16.jpg",
         caption="""👋 မင်္ဂလာပါ
 
 🎮 အောက်က "ဂိမ်းကစားရန်" Button ကိုနှိပ်ပြီး ဝင်ကစားနိုင်ပါတယ်။
