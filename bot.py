@@ -2,6 +2,7 @@ from telegram import (
     Update,
     InlineKeyboardButton,
     InlineKeyboardMarkup,
+    WebAppInfo,
 )
 from telegram.ext import (
     Application,
@@ -15,8 +16,8 @@ TOKEN = os.getenv("BOT_TOKEN")
 keyboard = InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            "🎮 ဂိမ်းကစားရန်",
-            url="https://www.365king.net"
+            text="🎮 ဂိမ်းကစားရန်",
+            web_app=WebAppInfo(url="https://www.365king.net/")
         )
     ]
 ])
